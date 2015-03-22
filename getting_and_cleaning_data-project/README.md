@@ -1,11 +1,11 @@
-# Getting and Cleaning Data
+# Getting and Cleaning Data Course Project
 
 Course project for the Getting and Cleaning Data course: https://class.coursera.org/getdata-012
 
 ## Requirements
 
 * R
-* The original data set, which is assumed to be located in a directory called `UCI HAR Dataset` under the current working directory
+* The original data set, which is assumed to be located in a directory called `UCI HAR Dataset` (with spaces) under the current working directory
 * The R package "plyr". You can install it with `install.packages("plyr")`
 
 ## How to run
@@ -28,7 +28,7 @@ For the precise definion of the original columns, please see the original files 
 Full list of columns follows:
 
 Summary column number | Original column number | Original column name
----------------------------------------------------------------------
+--------------------- | ---------------------- | --------------------
 1 | N/A | Subject
 2 | N/A | Activity
 3 | 1 | tBodyAcc-mean()-X
