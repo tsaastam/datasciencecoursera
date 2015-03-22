@@ -15,6 +15,7 @@ Course project for the Getting and Cleaning Data course: https://class.coursera.
 * Make sure the "plyr" package is installed
 * Execute the command: `source run_analysis.R`
 * If all went well, the summary will be produced in a file called `summary.txt`
+* You can read the summary file into R with e.g. `mysummary <- read.table("summary.txt", header=TRUE)`
 
 ## Code book for summary
 
